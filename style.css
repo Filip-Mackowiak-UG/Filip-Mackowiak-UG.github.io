@@ -1,0 +1,50 @@
+body {
+  background-color: grey;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+article.left, article.right, article.centre {
+  text-align: center;
+  float: left;
+  margin-bottom: 50px;
+}
+
+article.left, article.right {
+  width: 30%;
+}
+
+article.centre {
+  width: 40%;
+}
+
+img {
+  border-radius: 5%;
+  filter: brightness(50%)
+}
+
+img:hover {
+  filter: brightness(100%)
+}
+
+article.bottom {
+  clear: both;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.25em;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid black;
+  padding: 0.5em;
+}
